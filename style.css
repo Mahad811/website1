@@ -418,9 +418,16 @@ form {
 
     .whatsapp,
     .phone,
-    .email,.linkedin {
+    .email,
+    .linkedin {
         display: none;
     }
+
+
+     .linkedin {
+        display: none;
+    }
+
 
     .nav-right {
         display: none;
