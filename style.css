@@ -418,7 +418,7 @@ form {
 
     .whatsapp,
     .phone,
-    .email {
+    .email,.linkedin {
         display: none;
     }
 
