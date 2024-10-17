@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+
+
+    height: 100px;
+}
+
+.nav-left {
+    width: 40%;
+    padding-left: 5%;
+}
+
+.nav-right {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 5%;
+
+
+}
+
+.hamburger {
+    display: none;
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.hamburger img {
+    transform: scale(1.2);
+}
+
+.t1 {
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.t6 {
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.t4 {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+    margin: 0px;
+
+}
+
+.t3 {
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.t5 {
+    color: black;
+    font-size: medium;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+}
+
+.t2 {
+    color: white;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.intro {
+
+    display: flex;
+    justify-content: center;
+    background-color: #3f0f49;
+
+}
+
+.introduction {
+    padding-top: 30px;
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+.services-card-heading {
+    color: #4b4b4b;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.services1,
+.services2 {
+    margin: 0px;
+    background-color: #3f0f49;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+    padding: 20px;
+}
+
+.services2 {
+    background-color: #3f0f49;
+}
+
+.card1 {
+    border: 1px solid #ddd;
+    /* Lighter border */
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Align content to start */
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    /* Avoid content overflow */
+    padding: 20px;
+    /* Padding for consistent spacing */
+    box-sizing: border-box;
+    /* Include padding in width/height */
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+    /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Deeper shadow on hover */
+}
+
+.card1 img {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 20px;
+    /* Space between image and text */
+}
+
+
+
+
+
+
+.upper-navbar {
+    background-color: #E0D1F2;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding-left: 70px;
+
+}
+
+.whatsapp,
+.phone,
+.email,
+.linkedin,
+.linkedin1,
+.apply-here {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.linkedin1 {
+    margin-right: 40px;
+}
+
+.apply-btn {
+    font-size: medium;
+    font-weight: 500;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.form-help {
+    background-color: #3f0f49;
+    padding: 30px;
+}
+
+form {
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+
+}
+
+
+.form-group input {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 240px;
+}
+
+.form-group2 input {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-group input[type="submit"] {}
+
+.form-group input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+.upper-form {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-submit {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 37%;
+    font-size: large;
+}
+
+.footer {
+    background-color: #E0D1F2;
+    display: flex;
+    justify-content: space-around;
+    /* Distribute the space evenly */
+    padding: 20px;
+    /* Add padding to the footer */
+    height: auto;
+    /* Adjust height automatically based on content */
+    align-items: flex-start;
+    /* Align content to the top */
+    flex-wrap: wrap;
+    /* Ensure it wraps on smaller screens */
+
+    /* Ensure spacing between columns */
+}
+
+.links,
+.head-office {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+
+}
+
+.head-office {
+    gap: 0px;
+    /* Add some breathing room between office details */
+}
+
+.choose-us {
+    background-color: #3f0f49;
+    padding: 30px;
+
+}
+
+.countries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.client-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.clients {
+
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    /* Adjust as needed */
+    height: auto;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-width: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+.clients img {
+    border-radius: 10px;
+
+    /* Maintain aspect ratio */
+}
+
+.industries {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.industries img {
+    width: 800px;
+    height: 300px;
+}
+
+.lower-services {
+    background-color: white;
+}
+
+.carousel-wrapper {
+    display: none;
+}
+
+.linkedin1 a {
+    text-decoration: none;
+}
+
+
+
+
+/* General Mobile Styles */
+@media (max-width: 768px) {
+
+    .upper-navbar {
+        padding-left: 0px;
+        gap: 0;
+
+    }
+
+    .apply-here {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        height: auto;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 0px;
+
+
+    }
+
+    .apply-btn {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .t3 {
+        margin-left: 0;
+        margin: auto;
+        font-size: 15px;
+        padding-bottom: 15px;
+        text-decoration: none;
+    }
+
+    .whatsapp,
+    .phone,
+    .email {
+        display: none;
+    }
+
+    .nav-right {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    /* Show the hamburger button */
+    .hamburger {
+        display: block;
+    }
+
+
+    /* When the menu is active (shown), change its display */
+    .show {
+        display: flex !important;
+    }
+
+    .services1,
+    .services2 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card1 {
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .form-help {
+        padding: 20px;
+    }
+
+    .upper-form {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .form-submit {
+        margin: 15px auto;
+        width: 100%;
+    }
+
+    .form-group input {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .links,
+    .head-office {
+        width: 100%;
+        text-align: center;
+    }
+
+    .carousel-wrapper {
+        display: none;
+        /* Initially hidden */
+        width: 100%;
+        /* Take full width */
+        overflow: hidden;
+        /* Hide overflow */
+    }
+
+    .carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+    }
+
+    .slide {
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slide img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .clients {
+        display: none;
+    }
+
+    /* Show carousel section on mobile */
+    .carousel-wrapper {
+        display: block;
+    }
+
+    .card1 img {
+        width: auto;
+        height: auto;
+        padding: 10px
+    }
+
+    .industries img {
+        width: 100%;
+    }
+
+    .introduction {
+        width: 90%;
+    }
+
+    .countries img {
+        width: 90%;
+    }
+
+    .linkedin1 {
+        margin: 0;
+    }
+
+}
